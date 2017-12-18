@@ -20,6 +20,7 @@ This app doesn't depend on any specific hardware in PL.
   petalinux-build -x package
   ```
 - If any errors occur during the build process, the log of the build process can be checked in `build/build.log`
+- in Peta Linux execute ```export LD_LIBRARY_PATH=/usr/local/lib```
 
 ## Known Issues
 Some feature of python is not included. Python build reports:
